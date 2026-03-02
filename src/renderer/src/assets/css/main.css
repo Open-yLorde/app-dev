@@ -1,0 +1,4 @@
+@import 'tailwindcss';
+@import './topBar.css';
+@import './body.css';
+@import './switch.css'

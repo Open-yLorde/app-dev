@@ -1,0 +1,56 @@
+html,
+body,
+:root {
+  scrollbar-color: #191924 #121214;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+
+  user-select: none;
+  cursor: default;
+  overflow: hidden;
+  /* border-radius: 20px; */
+  margin: 0;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #121219;
+  /* border-radius: 20px; */
+}
+
+input[type='text'],
+input[type='password'],
+textarea {
+  cursor: text;
+  outline: none;
+}
+
+input[type="checkbox"],
+input[type="range"] {
+  cursor: pointer;
+}
+
+.input-background {
+  background-color: transparent;
+  border: 1px solid #222;
+}
+
+.input-background option {
+  background-color: #161616cc;
+}
+
+.container {
+  background-color: #121214;
+  background: #121214;
+  border: 1px solid #222;
+}
+
+.custom-footer {
+  background: #141419;
+  background-color: #141419;
+}
+
+pre {
+  display: flex;
+  flex-wrap: wrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
